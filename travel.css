@@ -128,6 +128,8 @@ input {
 
 }
 
+/*  */
+
 /* main */
 main .main-one {
     display: flex;
@@ -135,6 +137,14 @@ main .main-one {
     margin-top: -50px;
     margin-left: 130px;
     margin-right: 100px;
+}
+
+.desc {
+    color: rgba(19, 19, 24, 0.70);
+
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .main-one img {
@@ -158,6 +168,89 @@ main .para {
     background: #FF5400;
     border: 0;
 }
+
+.main-two {
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-right: 100px;
+}
+
+.main-two .div {
+    text-align: center;
+    margin-top: -50px;
+}
+
+.section {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.section .image {
+    align-items: center;
+    width: 573px;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.section .image-two {
+    display: flex;
+    gap: 26px;
+}
+
+.section .image-three {
+    display: flex;
+    gap: 24px;
+    margin-top: -20px;
+}
+ .box-one{
+    margin-right: 20px;
+ }
+.box-one .box {
+      
+    padding-left: 20px;
+    width: 550px; 
+    height: 284px; 
+     border: 1px solid rgba(251, 181, 99, 0.20);
+     border-radius: 16px;
+}
+
+.box-two {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.box {
+    padding-top: 50px;
+}
+
+.box-three {
+    margin-left: 300px;
+}
+
+.first .box {
+    background: rgba(251, 181, 99, 0.05);
+
+}
+.second .box{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.third .box{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.box p{
+    color: #5A5A5D;
+font-size: 16px;
+font-weight: 400;
+}
+
+
 
 
 
@@ -234,10 +327,40 @@ main .para {
         padding-right: 16px;
 
     }
+
     /* main */
-    main .main-one{
+    main .main-one {
         flex-direction: column;
         margin-top: -250px;
         margin-left: -10px;
     }
+
+    .main-two {
+        margin-left: -20px;
+
+    }
+
+    .main-two .div {
+        margin-left: 150px;
+        margin-right: -150px;
+    }
+
+    .main-two h3 {
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+
+        font-weight: 800;
+
+    }
+
+    .image,
+    .image-two,
+    .image-three {
+        flex-direction: column;
+        width: 335px;
+        height: auto;
+
+    }
+
 }
